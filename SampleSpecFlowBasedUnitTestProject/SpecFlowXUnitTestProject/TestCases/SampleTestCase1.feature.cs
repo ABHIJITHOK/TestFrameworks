@@ -79,6 +79,11 @@ namespace SpecFlowXUnitTestProject.TestCases
         [Xunit.InlineDataAttribute("10", "20", "30", new string[0])]
         [Xunit.InlineDataAttribute("1", "3", "4", new string[0])]
         [Xunit.InlineDataAttribute("1000", "2000", "3000", new string[0])]
+        [Xunit.InlineDataAttribute("602", "96", "698", new string[0])]
+        [Xunit.InlineDataAttribute("1", "2", "3", new string[0])]
+        [Xunit.InlineDataAttribute("1000000", "1000000", "2000000", new string[0])]
+        [Xunit.InlineDataAttribute("-1", "-1", "-2", new string[0])]
+        [Xunit.InlineDataAttribute("-1000000", "-1000000", "-2000000", new string[0])]
         public virtual void AddTwoNumbers(string value1, string value2, string result1, string[] exampleTags)
         {
             string[] @__tags = new string[] {
@@ -98,6 +103,8 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 11
  testRunner.Then(string.Format("the result should be {0} on the screen", result1), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 12
+ testRunner.Then("say hello", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

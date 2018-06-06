@@ -9,9 +9,15 @@ Scenario Outline: Add two numbers
 	And I have entered <Value2> into the calculator
 	When I press add
 	Then the result should be <Result1> on the screen
+	Then say hello
 
 Examples: 
-| Value1 | Value2 | Result1 |
-| 10     | 20     | 30      |
-| 1      | 3      | 4       |
-| 1000   | 2000   | 3000    |
+| Value1   | Value2   | Result1  |
+| 10       | 20       | 30       |
+| 1        | 3        | 4        |
+| 1000     | 2000     | 3000     |
+| 602      | 96       | 698      |
+| 1        | 2        | 3        |
+| 1000000  | 1000000  | 2000000  |
+| -1       | -1       | -2       |
+| -1000000 | -1000000 | -2000000 |

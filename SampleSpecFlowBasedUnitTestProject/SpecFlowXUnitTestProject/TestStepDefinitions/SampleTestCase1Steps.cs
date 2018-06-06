@@ -33,5 +33,11 @@ namespace SpecFlowXUnitTestProject.TestStepDefinitions
         {
             Assert.Equal(p0, sum);
         }
+
+        [Then(@"say hello")]
+        public void TheSayHello()
+        {
+            Console.WriteLine("Say Hello");
+        }
     }
 }
