@@ -76,15 +76,15 @@ namespace SpecFlowXUnitTestProject.TestCases
         [Xunit.TraitAttribute("FeatureTitle", "SampleTestCase1")]
         [Xunit.TraitAttribute("Description", "Add two numbers")]
         [Xunit.TraitAttribute("Category", "mytag")]
-        [Xunit.InlineDataAttribute("10", "20", "30", new string[0])]
-        [Xunit.InlineDataAttribute("1", "3", "4", new string[0])]
-        [Xunit.InlineDataAttribute("1000", "2000", "3000", new string[0])]
-        [Xunit.InlineDataAttribute("602", "96", "698", new string[0])]
-        [Xunit.InlineDataAttribute("1", "2", "3", new string[0])]
-        [Xunit.InlineDataAttribute("1000000", "1000000", "2000000", new string[0])]
-        [Xunit.InlineDataAttribute("-1", "-1", "-2", new string[0])]
-        [Xunit.InlineDataAttribute("-1000000", "-1000000", "-2000000", new string[0])]
-        public virtual void AddTwoNumbers(string value1, string value2, string result1, string[] exampleTags)
+        [Xunit.InlineDataAttribute("Scenario-1", "10", "20", "30", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-2", "1", "3", "4", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-3", "1000", "2000", "3000", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-4", "602", "96", "698", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-5", "1", "2", "3", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-6", "1000000", "1000000", "2000000", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-7", "-1", "-1", "-2", new string[0])]
+        [Xunit.InlineDataAttribute("Scenario-8", "-1000000", "-1000000", "-2000000", new string[0])]
+        public virtual void AddTwoNumbers(string variant, string value1, string value2, string result1, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "mytag"};

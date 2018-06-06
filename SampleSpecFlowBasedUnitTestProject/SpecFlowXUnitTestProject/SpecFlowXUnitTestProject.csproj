@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.props" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.props')" />
   <Import Project="..\packages\xunit.runner.visualstudio.2.4.0-beta.2.build4010\build\net20\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.4.0-beta.2.build4010\build\net20\xunit.runner.visualstudio.props')" />
   <Import Project="..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.props')" />
-  <Import Project="..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.props" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.props')" />
   <Import Project="..\packages\NUnit.3.10.1\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -100,13 +100,13 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\SpecFlow.2.3.2\build\SpecFlow.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.2.3.2\build\SpecFlow.targets'))" />
     <Error Condition="!Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.10.1\build\NUnit.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.targets'))" />
     <Error Condition="!Exists('..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.props'))" />
     <Error Condition="!Exists('..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.targets'))" />
     <Error Condition="!Exists('..\packages\xunit.runner.visualstudio.2.4.0-beta.2.build4010\build\net20\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.visualstudio.2.4.0-beta.2.build4010\build\net20\xunit.runner.visualstudio.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.targets'))" />
   </Target>
   <Import Project="..\packages\SpecFlow.2.3.2\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.2.3.2\build\SpecFlow.targets')" />
-  <Import Project="..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.targets" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.15.8.0-preview-20180605-02\build\net45\Microsoft.Net.Test.Sdk.targets')" />
   <Import Project="..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.4.0-beta.2.build4010\build\xunit.core.targets')" />
+  <Import Project="..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.targets" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.15.7.2\build\net45\Microsoft.Net.Test.Sdk.targets')" />
 </Project>

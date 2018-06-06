@@ -12,12 +12,12 @@ Scenario Outline: Add two numbers
 	Then say hello
 
 Examples: 
-| Value1   | Value2   | Result1  |
-| 10       | 20       | 30       |
-| 1        | 3        | 4        |
-| 1000     | 2000     | 3000     |
-| 602      | 96       | 698      |
-| 1        | 2        | 3        |
-| 1000000  | 1000000  | 2000000  |
-| -1       | -1       | -2       |
-| -1000000 | -1000000 | -2000000 |
+| variant:   | Value1   | Value2   | Result1  |
+| Scenario-1 | 10       | 20       | 30       |
+| Scenario-2 | 1        | 3        | 4        |
+| Scenario-3 | 1000     | 2000     | 3000     |
+| Scenario-4 | 602      | 96       | 698      |
+| Scenario-5 | 1        | 2        | 3        |
+| Scenario-6 | 1000000  | 1000000  | 2000000  |
+| Scenario-7 | -1       | -1       | -2       |
+| Scenario-8 | -1000000 | -1000000 | -2000000 |
