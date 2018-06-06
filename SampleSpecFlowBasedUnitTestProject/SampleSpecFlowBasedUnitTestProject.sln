@@ -7,19 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowMSTestUnitTestProje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowXUnitTestProject", "SpecFlowXUnitTestProject\SpecFlowXUnitTestProject.csproj", "{097EE37C-4C51-4C4A-B7C3-75A97D94104B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowNUnitTestProject", "SpecFlowNUnitTestProject\SpecFlowNUnitTestProject.csproj", "{46F0F05F-E8DB-42D9-BFFC-A0BFD240FE75}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowWebServiceTest", "SpecFlowWebServiceTest\SpecFlowWebServiceTest.csproj", "{4A513D0F-5A7A-4567-B83A-05C4C6FCDC19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{703B3E3A-8B13-4712-AF5D-3463B78EDE27}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{A3A48B0B-A0EB-40F6-8A30-E297E45AD49F}"
-	ProjectSection(SolutionItems) = preProject
-		packages\Microsoft.NET.Test.Sdk.15.7.2\Microsoft.NET.Test.Sdk.15.7.2.nupkg = packages\Microsoft.NET.Test.Sdk.15.7.2\Microsoft.NET.Test.Sdk.15.7.2.nupkg
-		packages\SpecFlow.2.3.2\SpecFlow.2.3.2.nupkg = packages\SpecFlow.2.3.2\SpecFlow.2.3.2.nupkg
 	EndProjectSection
 EndProject
 Global
@@ -36,10 +28,6 @@ Global
 		{097EE37C-4C51-4C4A-B7C3-75A97D94104B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{097EE37C-4C51-4C4A-B7C3-75A97D94104B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{097EE37C-4C51-4C4A-B7C3-75A97D94104B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46F0F05F-E8DB-42D9-BFFC-A0BFD240FE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46F0F05F-E8DB-42D9-BFFC-A0BFD240FE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46F0F05F-E8DB-42D9-BFFC-A0BFD240FE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46F0F05F-E8DB-42D9-BFFC-A0BFD240FE75}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A513D0F-5A7A-4567-B83A-05C4C6FCDC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A513D0F-5A7A-4567-B83A-05C4C6FCDC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A513D0F-5A7A-4567-B83A-05C4C6FCDC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,9 +35,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A3A48B0B-A0EB-40F6-8A30-E297E45AD49F} = {703B3E3A-8B13-4712-AF5D-3463B78EDE27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68DF2EF2-1FFF-485E-9426-43C5CFCA27FB}
